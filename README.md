@@ -1,4 +1,4 @@
-# AWS Icons [<img alt="AWS Logo" src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" height="96" align="right"/>](https://aws.amazon.com/architecture/icons/)
+# AWS Icons [<img alt="AWS Logo" src="/docs/favicon.svg" height="96" align="right"/>](https://aws-icons.svg.zone/)
 
 This is just an expansion of the zip file with AWS's architecture icons.
 

@@ -1,0 +1,19 @@
+#
+# _config.yml for Google Cloud Icons
+#
+
+exclude: [ "CNAME", "**/*_src*" ]
+permalink: /blog/:year/:month/:day/:title/index.:output_ext
+production_url: https://aws-icons.svg.zone
+title: AWS Architecture Icons
+markdown: kramdown
+plugins:
+  - jekyll-redirect-from
+redirect_from:
+  json: false
+theme: null
+links:
+  - name: Original download
+    url: "https://aws.amazon.com/architecture/icons/"
+  - name: Git source
+    url: "https://github.com/AwesomeLogos/aws-icons"
