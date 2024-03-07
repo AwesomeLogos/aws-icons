@@ -30,6 +30,9 @@ mv docs/images/Resource-Icons_* docs/images/Resource-Icons
 rm -rf docs/images/__MACOSX
 
 # why are there different sizes of scalable icons???
+rm -rf docs/images/Architecture-Service-Icons/*/16
+rm -rf docs/images/Architecture-Service-Icons/*/32
+rm -rf docs/images/Architecture-Service-Icons/*/48
 rm -rf docs/images/Category-Icons/Arch-Category_16
 rm -rf docs/images/Category-Icons/Arch-Category_32
 rm -rf docs/images/Category-Icons/Arch-Category_48
