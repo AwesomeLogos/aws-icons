@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>{% if page.h1 %}{{ page.title }}{% else %}{{ page.title }} - {{site.title}}{% endif %}</title>
+    <title>{{site.title}}</title>
     <meta name="referrer" content="unsafe-url" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -20,18 +20,17 @@
     <main class="container">
         <h1>
             <img alt="logo" src="/favicon.svg" style="height:1.5em;vertical-align:top;" />&nbsp;
-            {% if page.h1 %}{{ page.h1 }}{% else %}{{ page.title }}{% endif %}
+            {{site.title}}
         </h1>
         <hr/>
+        <p><small>
+    {%- for link in site.links %}
+    {%- if forloop.index0 > 0 %} | {% endif %}
+            <a href="{{link.url}}" title="{{link.name}}">{{link.name}}</a>
+    {%- endfor %}
+        </small></p>
 {{content}}
         <hr/>
     </main>
-    <footer class="container"><small>
-    {% for link in site.links %}
-        {% if forloop.index0 > 0 %} | {% endif %}
-        <a href="{{link.url}}" title="{{link.name}}">{{link.name}}</a>
-    {% endfor %}
-    </small></footer>
 </body>
-
 </html>

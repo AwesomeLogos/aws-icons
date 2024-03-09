@@ -1,5 +1,5 @@
 #
-# _config.yml for Google Cloud Icons
+# _config.yml for AWS Icons
 #
 
 exclude: [ "CNAME", "**/*_src*" ]
@@ -13,7 +13,7 @@ redirect_from:
   json: false
 theme: null
 links:
-  - name: Original download
+  - name: Download original
     url: "https://aws.amazon.com/architecture/icons/"
-  - name: Git source
-    url: "https://github.com/AwesomeLogos/aws-icons"
+  - name: Report an issue
+    url: "https://github.com/AwesomeLogos/aws-icons/issues"
